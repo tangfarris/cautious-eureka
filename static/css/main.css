@@ -1,0 +1,60 @@
+body, html {
+    margin: 0;
+    font-family: sans-serif;    
+}
+
+.content {
+    margin: 0 auto;
+    width: 400px;
+}
+
+table, td, th {
+    border: 1px solid #aaa;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 30px;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+#content {
+    width: 70%;
+}
+.addthing-box{    
+    background: #2f3640;
+    border-radius: 40px;
+    padding: 10px;
+}
+.addthing-txt{
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    font-weight:bold;    
+    padding: 0;    
+    transition: 0.4s;    
+}
+.addthing-btn{
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    float: right;
+}

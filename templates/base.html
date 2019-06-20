@@ -1,0 +1,20 @@
+<!-- boiler plate code -->
+<!-- the skeleton -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- <meta charset="UTF-8"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatibile" content="ie=edge">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"> <!-- for printing strings etc -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<!-- url for is flask function -->
+	{% block head %} {% endblock %}
+	<!-- jinja2 syntax? what???? creating a block in the template that is where we insert 
+	our code on all the other pages that inherit this template. -->
+	<!-- temlate engine for python -->
+</head>
+<body>
+	{% block body %} {% endblock %} <!-- for if statements for loops jinja2 syntax -->
+</body>
+</html>
